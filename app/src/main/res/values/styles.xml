@@ -1,0 +1,69 @@
+<resources>
+<!-- Base application theme. -->
+<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- Primary theme color of the app (sets background color of app bar) -->
+    <item name="colorPrimary">#FF9800</item>
+    <!-- Background color of buttons in the app -->
+    <item name="colorButtonNormal">#FF9800</item>
+</style>
+
+    <style name="scoreText" >
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/scoreText</item>
+        <item name="android:paddingBottom">@dimen/paddingBottom</item>
+        <item name="android:layout_marginTop">@dimen/marginTop</item>
+    </style>
+
+
+    <style name="reset" >
+        <item name="android:layout_marginBottom">@dimen/resetMarginBottom</item>
+    </style>
+
+    <style name="foulsScore" >
+        <item name="android:paddingBottom">@dimen/scoreItalyPaddingBottom</item>
+        <item name="android:textSize">@dimen/textSizeItalyScore</item>
+        <item name="android:textColor">@color/scoreItalyRed</item>
+    </style>
+
+    <style name="foulsButton" >
+        <item name="android:layout_marginLeft">@dimen/foulsItalyMarginLeft</item>
+        <item name="android:layout_marginRight">@dimen/foulsItalyMarginRight</item>
+        <item name="android:background">@color/redFoulsItaly</item>
+    </style>
+
+
+    <style name="penalty" >
+        <item name="android:layout_marginLeft">@dimen/marginLeft</item>
+        <item name="android:layout_marginRight">@dimen/marginRight</item>
+        <item name="android:layout_marginBottom">@dimen/penaltyItalyMarginBottom</item>
+    </style>
+
+    <style name="kick" >
+        <item name="android:layout_marginLeft">@dimen/kickItalyMarginLeft</item>
+        <item name="android:layout_marginRight">@dimen/kickItalyMarginRight</item>
+        <item name="android:layout_marginBottom">@dimen/kickItalyMarginBottom</item>
+    </style>
+
+
+    <style name="goal" >
+        <item name="android:layout_marginLeft">@dimen/goalItalyMarginLeft</item>
+        <item name="android:layout_marginRight">@dimen/goalItalyMarginRight</item>
+        <item name="android:layout_marginBottom">@dimen/goalItalyMarginBottom</item>
+    </style>
+
+    <style name="textView" >
+        <item name="android:textSize">@dimen/italyScoreSize</item>
+        <item name="android:textColor">@color/italyBlackColor</item>
+        <item name="android:layout_marginTop">@dimen/italyMarginTop</item>
+    </style>
+
+    <style name="view" >
+        <item name="android:layout_width">@dimen/viewWidth</item>
+        <item name="android:layout_marginTop">@dimen/viewMarginTop</item>
+        <item name="android:background">@android:color/darker_gray</item>
+    </style>
+
+
+   </resources>
+
+

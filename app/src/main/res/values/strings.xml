@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Football Score Keeper</string>
+    <string name="reset">reset</string>
+    <string name="fouls">fouls</string>
+    <string name="penalty">penalty</string>
+    <string name="teamScore">0</string>
+    <string name="slovakiaText">Slovakia</string>
+    <string name="slovakiaScore">0</string>
+    <string name="goalSlovakia">Goal</string>
+    <string name="kickSlovakia">Direct Kick</string>
+    <string name="penaltySlovakia">Penalty</string>
+    <string name="foulsSlovakia">0</string>
+    <string name="italyScore">Italy</string>
+    <string name="goalItaly">Goal</string>
+    <string name="directKickItaly">Direct kick</string>
+    <string name="scoreItalyText">0</string>
+
+</resources>

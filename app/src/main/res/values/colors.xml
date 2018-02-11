@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#000000</color>
+    <color name="blackSlovakia">#000000</color>
+    <color name="blackScoreSlovakia">#000000</color>
+    <color name="redFoulsSlovakia">#D50000</color>
+    <color name="redFoulsSlovakia1">#D50000</color>
+    <color name="italyBlackColor">#000000</color>
+    <color name="redFoulsItaly">#D50000</color>
+    <color name="scoreItalyRed">#D50000</color>
+</resources>
