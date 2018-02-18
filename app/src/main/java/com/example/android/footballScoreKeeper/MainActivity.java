@@ -29,10 +29,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        slovakGoals = (TextView) findViewById(R.id.team_a_score);
-        slovakFouls = (TextView) findViewById(R.id.team_a_fouls);
-        italyGoals = (TextView) findViewById(R.id.team_b_score);
-        italyFouls = (TextView) findViewById(R.id.team_b_fouls);
+        slovakGoals = findViewById(R.id.team_a_score);
+        slovakFouls = findViewById(R.id.team_a_fouls);
+        italyGoals = findViewById(R.id.team_b_score);
+        italyFouls = findViewById(R.id.team_b_fouls);
 
         foulsItaly = 0;
         foulsSlovakia = 0;
@@ -54,7 +54,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
-        ;
         outState.putInt("keyScoreS", scoreSlovakia);
         outState.putInt("keyScoreI", scoreItaly);
         outState.putInt("keyFoulsS", foulsSlovakia);
