@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
     String keyFoulS;
     String keyFoulsI;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -47,7 +46,6 @@ public class MainActivity extends AppCompatActivity {
         keyFoulS = "foulsSlovakia";
         keyFoulsI = "foulsItaly";
     }
-
     /**
      * Before the app is about to "die", we have the score in the bundle using this method
      */
@@ -59,7 +57,6 @@ public class MainActivity extends AppCompatActivity {
         outState.putInt("keyFoulsS", foulsSlovakia);
         outState.putInt("keyFoulsI", foulsItaly);
     }
-
     @Override
     public void onRestoreInstanceState(Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);
@@ -72,70 +69,58 @@ public class MainActivity extends AppCompatActivity {
         displayFoulsItaly(foulsItaly);
         displayFoulsSlovakia(foulsSlovakia);
     }
-
-
     /**
-     * Displays the given score for Team A.
+     * Displays the given score for Team Slovakia.
      */
     public void displayForSlovakia(int score) {
          slovakGoals.setText(String.valueOf(score));
     }
-
         /**
-         * Displays the fouls score for Team A.
+         * Displays the fouls score for Team Slovakia.
          */
     public void displayFoulsSlovakia(int score) {
         slovakFouls.setText(String.valueOf(score));
     }
-
     /**
-     * Displays the given score for Team B.
+     * Displays the given score for Team Italy.
      */
     public void displayForItaly(int score) {
         italyGoals.setText(String.valueOf(score));
     }
-
         /**
-         * Displays the fouls score for Team B.
+         * Displays the fouls score for Team Italy.
          */
     public void displayFoulsItaly(int score) {
         italyFouls.setText(String.valueOf(score));
     }
-
-
     /**
-     * Increase the score for Team A by 1 point.
+     * Increase the score for Team Slovakia by 1 point.
      */
     public void goalSlovakia(View v) {
         scoreSlovakia = scoreSlovakia + 1;
         displayForSlovakia(scoreSlovakia);
     }
-
-
     /**
-     * Increase the score for Team A by 1 point.
+     * Increase the score for Team Slovakia by 1 point.
      */
     public void directKickSlovakia(View v) {
         scoreSlovakia = scoreSlovakia + 1;
         displayForSlovakia(scoreSlovakia);
     }
-
     /**
-     * Increase the score for Team A by 1 point.
+     * Increase the score for Team Slovakia by 1 point.
      */
     public void penaltySlovakia(View v) {
         scoreSlovakia = scoreSlovakia + 1;
         displayForSlovakia(scoreSlovakia);
     }
-
     /**
-     * Increase the score for Team B by 1 point.
+     * Increase the score for Team Italy by 1 point.
      */
     public void PenaltyItaly(View v) {
         scoreItaly = scoreItaly + 1;
         displayForItaly(scoreItaly);
     }
-
     /**
      * Resets the score for both teams back to 0.
      */
@@ -149,7 +134,6 @@ public class MainActivity extends AppCompatActivity {
         displayFoulsSlovakia(foulsSlovakia);
         displayFoulsItaly(foulsItaly);
     }
-
     /**
      * Increase the score for Team B by 1 point.
      */
@@ -157,7 +141,6 @@ public class MainActivity extends AppCompatActivity {
         scoreItaly = scoreItaly + 1;
         displayForItaly(scoreItaly);
     }
-
     /**
      * Increase the score for Team B by 1 point.
      */
@@ -165,7 +148,6 @@ public class MainActivity extends AppCompatActivity {
         scoreItaly = scoreItaly + 1;
         displayForItaly(scoreItaly);
     }
-
     /**
      * Increase the fouls for Team B by 1 point.
      */
@@ -173,7 +155,6 @@ public class MainActivity extends AppCompatActivity {
         foulsItaly = foulsItaly + 1;
         displayFoulsItaly(foulsItaly);
     }
-
     /**
      * Increase the fouls for Team B by 1 point.
      */
@@ -181,7 +162,4 @@ public class MainActivity extends AppCompatActivity {
         foulsSlovakia = foulsSlovakia + 1;
         displayFoulsSlovakia(foulsSlovakia);
     }
-
-
-
 }
